@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clickbaits",
+  "info": {
+    "name": "clickbait",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "article_Image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "clickbaitOrNot": {
+      "type": "boolean"
+    }
+  }
+}

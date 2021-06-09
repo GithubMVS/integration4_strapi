@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/clickbaits",
+      "handler": "clickbait.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/clickbaits/count",
+      "handler": "clickbait.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/clickbaits/:id",
+      "handler": "clickbait.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/clickbaits",
+      "handler": "clickbait.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/clickbaits/:id",
+      "handler": "clickbait.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/clickbaits/:id",
+      "handler": "clickbait.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
