@@ -29,6 +29,9 @@
     },
     "clickbaitOrNot": {
       "type": "boolean"
+    },
+    "whyClickbaitOrNot": {
+      "type": "richtext"
     }
   }
 }

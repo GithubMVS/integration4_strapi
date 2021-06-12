@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "urls",
   "info": {
-    "name": "url"
+    "name": "url",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,17 +15,26 @@
     "title": {
       "type": "string"
     },
-    "urlsImage": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "description": {
+      "type": "richtext"
+    },
+    "bron": {
+      "type": "string"
+    },
+    "thema": {
+      "type": "string"
+    },
+    "persoon": {
+      "type": "string"
+    },
+    "aantalLikes": {
+      "type": "biginteger"
+    },
+    "aantalComments": {
+      "type": "biginteger"
+    },
+    "Date_Gepubliceerd": {
+      "type": "date"
     }
   }
 }
