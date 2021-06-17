@@ -32,6 +32,15 @@
     },
     "whyClickbaitOrNot": {
       "type": "richtext"
+    },
+    "datePublished": {
+      "type": "datetime"
+    },
+    "auteur": {
+      "type": "richtext"
+    },
+    "bron": {
+      "type": "richtext"
     }
   }
 }

@@ -27,14 +27,11 @@
     "persoon": {
       "type": "string"
     },
-    "aantalLikes": {
-      "type": "biginteger"
-    },
-    "aantalComments": {
-      "type": "biginteger"
-    },
     "Date_Gepubliceerd": {
       "type": "date"
+    },
+    "WhichTypeOfFake": {
+      "type": "string"
     }
   }
 }
