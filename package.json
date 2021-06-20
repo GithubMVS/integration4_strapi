@@ -13,6 +13,7 @@
   "dependencies": {
     "knex": "0.21.18",
     "mysql": "^2.18.1",
+    "pg": "^8.6.0",
     "sqlite3": "5.0.0",
     "sqlstring": "^2.3.2",
     "strapi": "3.6.3",
