@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "description": {
       "type": "richtext"
     },
@@ -31,6 +28,27 @@
       "type": "date"
     },
     "WhichTypeOfFake": {
+      "type": "string"
+    },
+    "voordelen": {
+      "type": "richtext"
+    },
+    "nadelen": {
+      "type": "richtext"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "tag_value": {
       "type": "string"
     }
   }
