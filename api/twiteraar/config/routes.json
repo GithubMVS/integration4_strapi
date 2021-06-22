@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/twiteraars",
+      "handler": "twiteraar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/twiteraars/count",
+      "handler": "twiteraar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/twiteraars/:id",
+      "handler": "twiteraar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/twiteraars",
+      "handler": "twiteraar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/twiteraars/:id",
+      "handler": "twiteraar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/twiteraars/:id",
+      "handler": "twiteraar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
