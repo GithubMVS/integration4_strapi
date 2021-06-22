@@ -30,12 +30,6 @@
     "WhichTypeOfFake": {
       "type": "string"
     },
-    "voordelen": {
-      "type": "richtext"
-    },
-    "nadelen": {
-      "type": "richtext"
-    },
     "image": {
       "collection": "file",
       "via": "related",
@@ -50,6 +44,12 @@
     },
     "tag_value": {
       "type": "string"
+    },
+    "voordelen": {
+      "type": "json"
+    },
+    "nadelen": {
+      "type": "json"
     }
   }
 }
