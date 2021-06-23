@@ -15,7 +15,7 @@
     "title": {
       "type": "string"
     },
-    "article_Image": {
+    "articleImage": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
